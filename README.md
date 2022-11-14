@@ -78,3 +78,5 @@ Observe, que o caminho informado é 'nogarasystem/Yesorno' onde eu informei o ap
 Minha função vai me retornar um array com duas opções, sendo elas 'Wellington' e 'Nogara' onde respectivamente seus 'values' são 0 e 1. Dentro do meu campo criado no meu admin, ficará exibido da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/50090354/201716136-cd9c1ab5-e7ce-43af-bc52-16d8d259880d.png)
+
+<strong>Qualquer dúvida estou a disposição - <a href="https://wellingtonnogara.com/" style="color: red;">Wellington Nogara</a>.</strong>
