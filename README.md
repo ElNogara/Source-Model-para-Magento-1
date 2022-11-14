@@ -1,3 +1,5 @@
+Para dar continuidade é necessário que entenda <a href="https://github.com/ElNogara/Primeiro-Modulo-Magento-1">como criar um módulo no Magento 1</a> e também ter conhecimento de <a href="https://github.com/ElNogara/System-Campos-de-configuracao-Magento-1">como criar seus campos no admin do Magento 1</a>.
+
 <h1>Source Model Para Magento 1</h1>
 </br>
 Alguns campos criados no system.xml do Magento 1 utilizam um array de valores como 'values' e para que possuam isso é necessário setar um Source Model no momento de declara-los.
