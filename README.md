@@ -1,9 +1,9 @@
 <h1>Source Model Para Magento 1</h1>
 </br>
-Alguns campos criados no system.xml do Magento 1 utilizão um array de valores como 'values' e para que possuam isso é necessário setar um Source Model no momento de declara-los.
+Alguns campos criados no system.xml do Magento 1 utilizam um array de valores como 'values' e para que possuam isso é necessário setar um Source Model no momento de declara-los.
 
 <h2>Source Models padrões do Magento 1</h2>
-O magento já contém varios Models que nos retornem um array para utilizarmos nos nossos campos, sendo eles:
+O magento contém varios Models que nos retornam um array para utilizarmos nos nossos campos, sendo eles:
 
 <strong>Allregion.php</br>
 Category.php</br>
@@ -13,9 +13,9 @@ Currency.php</br>
 Website.php</br>
 Yesno.php</br>
 Enabledisable.php</br>
-Entre outros...</br></strong></br>
+Entre outros...</br></strong>
 
-O que todos eles tem em comum? É que todos possuem a função <strong>toOptionArray</strong> onde por padrão o Magento pega o retorno dessa função para ser utilizado nos seus campos campos de admin.
+O que todos eles tem em comum? É que todos possuem a função <strong>toOptionArray</strong> onde por padrão o Magento pega o retorno dessa função para ser utilizado nos seus campos de admin.
 
 <h2>Como criar meus próprios Source Models?</h2>
 É bem simples, você só precisa ter um Model dentro do seu módulo que possua a função <strong>toOptionArray</strong> e retorne um array com opções como exemplo abaixo o mais simples de todos Yesno:
@@ -31,7 +31,7 @@ O que todos eles tem em comum? É que todos possuem a função <strong>toOptionA
     }
 ```
 
-Abaixo estou criando meu próprio Model, dentro do meu módulo Elnogara_Sistemaconfig criei a pasta Model e o arquivo dentro dela chamado de Yesorno.php:
+Abaixo estou criando meu próprio Model, dentro do meu módulo Elnogara_Sistemaconfig. Criei a pasta Model e o arquivo dentro dela chamado de Yesorno.php:
 
 ```
 <?php
@@ -60,12 +60,12 @@ Além de criar o Model é necessário referênciar a minha pasta 'Model' dentro 
         </Elnogara_Sistemaconfig>
     </modules>
     <global>
-	    <models>
-	        <nogarasystem>
-	                <class>Elnogara_Sistemaconfig_Model</class>
-	        </nogarasystem>
-	    </models>
-	</global>
+	 <models>
+	     <nogarasystem>
+	          <class>Elnogara_Sistemaconfig_Model</class>
+	     </nogarasystem>
+	 </models>
+     </global>
 </config>
 ```
 
