@@ -81,4 +81,4 @@ Minha função vai me retornar um array com duas opções, sendo elas 'Wellingto
 
 ![image](https://user-images.githubusercontent.com/50090354/201716136-cd9c1ab5-e7ce-43af-bc52-16d8d259880d.png)
 
-<strong>Qualquer dúvida estou a disposição - <a href="https://wellingtonnogara.com/" style="color: red;">Wellington Nogara</a>.</strong>
+<strong>Espero muito ter ajudado. Mas qualquer dúvida estou a disposição - <a href="https://wellingtonnogara.com/" style="color: red;">Wellington Nogara</a>.</strong>
